@@ -1,0 +1,33 @@
+Package: rgbifutils
+Title: Tools for working with the rgbif package
+Version: 0.0.0.9000
+Authors@R: 
+   c(person(given = "Julie",
+           family = "Galloway",
+           role = c("aut", "cre"),
+           email = "juliegalloway093@gmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID")),
+           person(given = "Andy",
+           family = "Teucher",
+           role = c("aut"),
+           email = "andy.teucher@gmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))) 
+Description: Contains one function to help you get gbif observations (using the 
+            rgbif package: <https://CRAN.R-project.org/package=rgbif)> from an sf polygon.
+License: MIT + file LICENSE
+Imports: 
+  rgbif  (>= 1.3.0),
+  wicket,
+  sf
+Suggests: 
+    rmarkdown,
+    knitr,
+    testthat (>= 2.1.0)
+Remotes: 
+  ropensci/wicket@reverse
+Roxygen: list(markdown = TRUE)
+VignetteBuilder: 
+  knitr
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
